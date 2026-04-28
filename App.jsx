@@ -11,7 +11,7 @@ import { GiBrain, GiArtificialIntelligence } from 'react-icons/gi';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 //linking api
-//const genAI = new GoogleGenerativeAI("AIzaSyBme2jNBS6qF27SsCuKeixLFoY6OjDngQA");
+//const genAI = new GoogleGenerativeAI("Your_Api_Key");
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
