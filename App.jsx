@@ -11,7 +11,7 @@ import { GiBrain, GiArtificialIntelligence } from 'react-icons/gi';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 //linking api
-//const genAI = new GoogleGenerativeAI("Your_Api_Key");
+//const genAI = new GoogleGenerativeAI("AIzaSyBme2jNBS6qF27SsCuKeixLFoY6OjDngQA");
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -306,7 +306,7 @@ const handleSendMessage = () => {
             desc="Our AI-powered risk assessment tool evaluates patient data to provide preliminary insights into potential health risks."
           />
           <FeatureCard 
-            img="https://futurehealthcaretoday.com/wp-content/uploads/2022/11/shutterstock_2166833375.jpg"
+            img="https://riskandinsurance.com/wp-content/uploads/2023/08/AI-Healthcare-700x525-1-scaled.jpg"
             icon={<HiOutlineDocumentReport size={38}/>}
             title="Clinical Health Report" 
             desc="Generate comprehensive clinical health reports based on AI analysis, including detected conditions, risk levels, and personalized recommendations for precautions and dietary measures."
